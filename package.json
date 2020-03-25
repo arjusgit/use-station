@@ -1,5 +1,5 @@
 {
-  "name": "@terra-money/use-station",
+  "name": "@terra-money/use-native-station",
   "author": "Terra <engineering@terra.money> (https://terra.money)",
   "version": "4.0.2",
   "main": "dist/index.js",

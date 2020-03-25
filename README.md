@@ -9,7 +9,7 @@ If developers install this project from npm and use it, they can easily build a 
 Install to your React project using npm:
 
 ```sh
-npm install @terra-money/use-station
+npm install @terra-money/use-native-station
 ```
 
 Declare your domain like below to solve CORS problem:
@@ -22,9 +22,9 @@ Basic sample:
 
 ```tsx
 import React, { useMemo } from 'react'
-import ReactDOM from 'react-dom'
-import { useConfigState, ConfigProvider } from '@terra-money/use-station'
-import { useDashboard, DashboardUI } from '@terra-money/use-station'
+import { View, Text } from 'react-native'
+import { useConfigState, ConfigProvider } from '@terra-money/use-native-station'
+import { useDashboard, DashboardUI } from '@terra-money/use-native-station'
 
 const Dashboard = () => {
   const { error, loading, ui } = useDashboard()
@@ -32,17 +32,23 @@ const Dashboard = () => {
   const render = ({ prices: { title, display } }: DashboardUI) => {
     const { value, unit } = display
     return (
-      <article>
-        <h1>{title}</h1>
-        <p>{[value, unit].join(' ')}</p>
-      </article>
+      <View>
+        <Text>{title}</Text>
+        <Text>{[value, unit].join(' ')}</Text>
+      </View>
     )
   }
 
   return (
-    <div>
-      {error ? error.message : loading ? 'Loading...' : ui && render(ui)}
-    </div>
+    <View>
+      {error ? (
+        <Text>{error.message}</Text>
+      ) : loading ? (
+        <Text>Loading...</Text>
+      ) : (
+        ui && render(ui)
+      )}
+    </View>
   )
 }
 
@@ -64,7 +70,7 @@ const App = () => {
   )
 }
 
-ReactDOM.render(<App />, document.getElementById('root'))
+export default App
 ```
 
 ## Available Scripts
