@@ -1,16 +1,16 @@
-import { Pagination, API, Card } from '..'
+import { API, Card } from '..'
 
-export interface ContractsPage extends API<ContractsData> {
+export interface ContractsPage extends API<{ contracts: Contract[] }> {
   ui?: ContractsUI
   create: { attrs: { children: string } }
   upload: { attrs: { children: string } }
 }
 
 export interface ContractsUI {
-  pagination: Pagination
   card?: Card
   list?: ContractUI[]
   search?: { placeholder: string }
+  more?: () => void
 }
 
 export interface ContractUI {
@@ -24,10 +24,6 @@ export interface ContractUI {
 }
 
 /* data */
-export interface ContractsData extends Pagination {
-  contracts: Contract[]
-}
-
 export interface Contract {
   owner: string
   code_id: string

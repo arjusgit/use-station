@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import { Dictionary } from 'ramda'
 import { VotesPage, VotesData, VoteItem } from '../types'
-import { gt, sum, toNumber } from '../utils'
+import { sum, toNumber } from '../utils'
 import useFinder from '../hooks/useFinder'
 import useFCD from '../api/useFCD'
 import { getVoter } from '../pages/governance/helpers'
@@ -41,29 +41,22 @@ export const useVoteOptions = (
 interface Params {
   id: string
   option: string
-  page: number
 }
 
-export default ({ id, option, page }: Params): VotesPage => {
+export default ({ id, option }: Params): VotesPage => {
   const { t } = useTranslation()
   const getLink = useFinder()
 
   /* api */
   const url = `/v1/gov/proposals/${id}/votes`
-  const params = { option, page }
+  const params = { option }
   const response = useFCD<VotesData>({ url, params })
 
   /* render */
-  const render = ({ totalCnt, page, limit, votes }: VotesData) =>
+
+  const render = ({ limit, votes }: VotesData) =>
     Object.assign(
-      {
-        pagination: {
-          totalCnt: Number(totalCnt),
-          page: Number(page),
-          limit: Number(limit),
-        },
-      },
-      !gt(totalCnt, 0)
+      !votes.length
         ? {
             card: {
               content: t('Page:Governance:No votes yet'),
