@@ -3,7 +3,7 @@
       "Coin": "Moneda",
   
       "All": "Todo",
-      "Type": "Type",
+      "Type": "Tipo",
       "Change": "Cambiar",
       "Time": "Date",
       "Weight": "Peso",
@@ -41,7 +41,7 @@
       "Error": {
         "Oops! Something went wrong": "¡Ups! Algo salió mal",
         "You have encountered an error": "Te has encontrado con un error",
-        "Station ran into an error": "La estación se encontró con un error",
+        "Station ran into an error": "Station se ha encontrado con un error",
   
         "No internet connection": "No hay conexión a Internet",
         "Please check your internet connection and retry again": "Por favor, comprueba tu conexión a Internet e inténtalo de nuevo",
@@ -77,10 +77,10 @@
   
   "Auth": {
       "Menu": {
-        "Recover existing wallet": "Recuperación de una cartera existente",
-        "New wallet": "Cartera nueva",
-        "Select wallet": "Selecciona una cartera",
-        "Access with ledger": "Identifícate con ledger",
+        "Recover existing wallet": "Recuperación de un monedero existente",
+        "New wallet": "Monedero nuevo",
+        "Select wallet": "Selecciona un monedero",
+        "Access with ledger": "Identifícate con Ledger",
         "Browse with address": "Identifícate con una dirección",
         "Download Terra Station": "Descarga la estación Terra"
   
@@ -90,18 +90,18 @@
         "Welcome": "Bienvenido",
         "Connect": "Conexión",
   
-        "Connect to your wallet, create a new wallet or recover an existing wallet using a seed phrase": "Acceder a una cartera, crear una nueva cartera o recuperar una existente utilizando una frase de acceso.",
-        "Create a new wallet or recover an existing wallet using a seed phrase": "Crear una nueva cartera o recuperar una existente utilizando una frase desencadenante",
+        "Connect to your wallet, create a new wallet or recover an existing wallet using a seed phrase": "Acceder a un monedero, crear un nuevo monedero o recuperar uno existente utilizando una frase semilla.",
+        "Create a new wallet or recover an existing wallet using a seed phrase": "Crear un nuevo monedero o recuperar una existente utilizando una frase semilla",
   
-        "Just browsing?": "¿Solo para consultar?",
+        "Just browsing?": "¿Solo navegando?",
         "Quickly glance through your address": "Echa un vistazo a tu dirección",
   
-        "How can I create an wallet?": "¿Cómo puedo crear una cartera?",
-        "If you want to create an wallet, please download <0>Terra Station for Windows/MacOS</0>. We don't support creating an wallet for Terra Station web due to the security reasons.": "Si deseas crear un portafolio, por favor descarga <0>Terra Station para Windows/macOS.</0> La creación de un portafolio en la web de Terra Station no está soportada por razones de seguridad",
+        "How can I create an wallet?": "¿Cómo puedo crear un monedero?",
+        "If you want to create an wallet, please download <0>Terra Station for Windows/MacOS</0>. We don't support creating an wallet for Terra Station web due to the security reasons.": "Si deseas crear un monedero, por favor descarga <0>Terra Station para Windows/macOS.</0> La creación de un monedero en la web de Terra Station no está soportada por razones de seguridad",
   
-        "Connection required": "Conexión requerida.",
+        "Connection required": "Conexión requerida",
         "This page shows data for a specific address. To access the page, please <0>connect</0>.": "Esta página muestra los datos de una dirección específica. Para acceder a esta página, por favor <0> inicia sesión</0>",
-        "Please connect with wallet or ledger to execute": "Por favor, inicia sesión con un monedero o libro mayor para ejecutar"
+        "Please connect with wallet or ledger to execute": "Por favor, inicia sesión con un monedero o Ledger para ejecutar"
       },
   
    "Form": {
@@ -111,46 +111,46 @@
       },
   
       "SignUp": {
-        "Wallet name": "Nombre de la cartera",
+        "Wallet name": "Nombre del monedero",
         "Enter 5-20 alphanumeric characters": "Introduce de 5 a 20 caracteres alfanuméricos",
         "Confirm password": "Confirmar contraseña",
         "Confirm your password": "Confirma tu contraseña",
-        "Seed phrase": "Frase de cebado",
+        "Seed phrase": "Frase semilla",
   
         "{{word}} is an invalid word": "{{palabra}} es una palabra inválida",
-        "What if I lost my seed phrase?": "¿Y si pierdo mi eslogan?",
-        "We cannot recover your information for you. If you lose your seed phrase it's GONE FOREVER. Terra Station does not store your mnemonic.": "No podemos recuperar tu información por ti. Si pierdes tu frase cebo, la perderás PARA SIEMPRE. La Estación Terra no la salva.",
+        "What if I lost my seed phrase?": "¿Y si pierdo mi frase semilla?",
+        "We cannot recover your information for you. If you lose your seed phrase it's GONE FOREVER. Terra Station does not store your mnemonic.": "No podemos recuperar tu información por ti. Si pierdes tu frase semilla, la perderás PARA SIEMPRE. La Estación Terra no la salva.",
         "I have securely <0>WRITTEN DOWN MY SEED</0>. I understand that lost seeds cannot be recovered.": "He escrito de forma segura <0>Mi semilla</0>. Entiendo que las semillas perdidas no se pueden recuperar.",
         "Select address to recover": "Selecciona la dirección a recoger",
         "Vested": "Adquirido",
         "Delegated": "Delegado",
         "Undelegated": "No delegado",
         "No balance": "No se paga",
-        "Wallet recovered successfully!": "¡Billetera recuperada con éxito!",
+        "Wallet recovered successfully!": "¡Monedero recuperado con éxito!",
         "Welcome back to Terra Station.": "Bienvenido a la Estación Terra.",
   
-        "Confirm your seed": "Confirma tu frase de cebo",
+        "Confirm your seed": "Confirma tu frase semilla",
         "{{index}} word": "Número de palabra {{index}}",
-        "Select or type": "Selecciona o teclea",
-        "Create a wallet": "Crear una cartera",
-        "Wallet created!": "¡Bolsa creada!",
+        "Select or type": "Selecciona o escribe",
+        "Create a wallet": "Crear un monedero",
+        "Wallet created!": "Monedero creado!",
         "Welcome aboard to Terra Station.": "Bienvenido a la Estación Terra.",
         "Explore the Terra Network": "Explorez le réseau Terra"
       },
   
   "SignIn": {
-        "Wallet": "Cartera",
-        "Wallet address": "Dirección de la cartera",
+        "Wallet": "Monedero",
+        "Wallet address": "Dirección del monedero",
         "Input your wallet address": "Introduce la dirección de tu monedero",
-        "Please plug in your\nLedger Wallet": "Por favor, conecta tu billetera Ledger",
+        "Please plug in your\nLedger Wallet": "Por favor, conecta tu monedero Ledger",
         "Browse": "Navegar"
       },
   
       "Manage": {
-        "Manage wallets": "Gestionar esta cartera",
-        "Change password or delete wallet": "Cambia la contraseña o borra esta cartera",
+        "Manage wallets": "Gestionar este monedero",
+        "Change password or delete wallet": "Cambia la contraseña o borra este monedero",
         "Change password": "Cambiar contraseña",
-        "Delete wallet": "Borra esta cartera",
+        "Delete wallet": "Borra este monedero",
   
         "Current password": "Contraseña actual",
         "New password": "Nueva contraseña",
@@ -158,7 +158,7 @@
         "Password changed": "Contraseña cambiada",
         "You can now connect with your new password": "Ya puedes conectarte con tu nueva contraseña",
   
-        "Are you sure you want to delete this wallet? Your wallet cannot be recovered without seed phrase.": "¿Estás seguro de que quieres borrar esta cartera? No se puede recuperar sin la frase cebo.",
+        "Are you sure you want to delete this wallet? Your wallet cannot be recovered without seed phrase.": "¿Estás seguro de que quieres borrar este monedero? No se puede recuperar sin la frase semilla.",
         "Delete": "Borrar",
   
         "Recent addresses": "Direcciones recientes",
@@ -179,10 +179,10 @@
       "Copy link": "Copiar enlace",
   
   "Menu": {
-        "Dashboard": "Tablero de mandos",
-        "Wallet": "Cartera",
-        "History": "Histórico",
-        "Staking": "Estacar",
+        "Dashboard": "Panel de control",
+        "Wallet": "Monedero",
+        "History": "Historial",
+        "Staking": "Delegar",
         "Validator details": "Información del validador",
         "Swap": "Intercambio",
         "Governance": "Gobernanza",
@@ -191,13 +191,13 @@
       },
   
       "Dashboard": {
-        "Tax rate": "Tipos impositivos",
+        "Tax rate": "Tasa impositiva",
         "Capped at {{cappedAt}}": "Con un límite de {{cappedAt}}",
         "Issuance": "Edición",
-        "Community pool": "Piscina comunitaria",
-        "Staking ratio": "Relación de apuestas",
-        "{{staked}} staked": "{{staked}} estacado",
-        "Staked Luna / Total Luna": "Estacas Luna / Total luna"
+        "Community pool": "Pool comunitario",
+        "Staking ratio": "Ratio de delegación",
+        "{{staked}} staked": "{{staked}} delegado",
+        "Staked Luna / Total Luna": "Luna delegada / Total de Luna"
       },
   
       "Chart": {
@@ -205,16 +205,16 @@
         "Periodic": "Periódico",
         "Annualized": "Anualizado",
         "Daily": "Diario",
-        "From genesis": "Desde la génesis",
+        "From genesis": "Desde el inicio",
         "Last day": "Último día",
         "{{d}} days": "{{d}} días",
         "/ year": "/ año",
         "/ day": "/ día",
   
         "Transaction volume": "Volumen de transacciones",
-        "The onchain transaction volume for the selected currency over the selected time period": "El volumen de transacciones en cadena para la moneda seleccionada durante el período seleccionado",
-        "Staking return": "Regreso de la estacada",
-        "Annualized staking yield for Luna based on tax rewards, oracle rewards, gas, MIR airdrop rewards and latest prices of Luna (annualize return = 7 days moving average return * 365)": "Rentabilidad anualizada de las apuestas de Luna, basada en las tasas de transacción y de gas, las recompensas de oracle, las recompensas MIR y los últimos precios de Luna (rentabilidad anualizada = media móvil de 7 días * 365)",
+        "The onchain transaction volume for the selected currency over the selected time period": "El volumen de transacciones en la blockchain para la moneda seleccionada durante el período seleccionado",
+        "Staking return": "Rendimiento al delegar",
+        "Annualized staking yield for Luna based on tax rewards, oracle rewards, gas, MIR airdrop rewards and latest prices of Luna (annualize return = 7 days moving average return * 365)": "Rentabilidad anualizada de las delegación de Luna, basada en las tasas de transacción y de gas, las recompensas de oráculo, las recompensas MIR y los últimos precios de Luna (rentabilidad anualizada = media móvil de 7 días * 365)",
         "Tax rewards": "Recompensas fiscales",
         "Tax rewards distributed over the selected time period": "Recompensas fiscales repartidas a lo largo del periodo seleccionado",
         "Total accounts": "Número total de cuentas",
@@ -224,28 +224,28 @@
       },
   
   "Bank": {
-        "My wallet": "Mi cartera",
-        "Verify this address on your Ledger": "Comprueba esta dirección en tu Libro Mayor",
+        "My wallet": "Mi monedero",
+        "Verify this address on your Ledger": "Comprueba esta dirección en tu Ledger",
   
-        "Wallet empty": "Cartera vacía",
-        "This wallet doesn't hold any coins yet": "Esta cartera aún no contiene ninguna moneda",
+        "Wallet empty": "Monedero vacío",
+        "This wallet doesn't hold any coins yet": "Este monedero aún no contiene monedas",
   
         "Available": "Disponible",
         "Hide small balances": "Ocultar las pequeñas ventas",
   
         "Vesting schedule": "Calendario de adquisición de derechos",
-        "This displays your investment with Terra. Vested Luna can be delegated in the meantime.": "Esto hace que su inversión con Terra sea aún más atractiva. Puedes delegar tus Lunas adquiridas mientras estén bloqueadas para ti",
+        "This displays your investment with Terra. Vested Luna can be delegated in the meantime.": "Esto hace que su inversión con Terra sea aún más atractiva. Puedes delegar tus Luna adquiridas mientras estén bloqueadas para ti",
   
         "Released": "Liberado",
         "Releasing": "En proceso de ser liberado",
-        "Release on": "Publicado en"
+        "Release on": "Liberado el"
       },
   
       "Txs": {
         "Default": "Base",
         "Send": "Enviar",
-        "Receive": "Reciba",
-        "Staking": "Estaca",
+        "Receive": "Recibir",
+        "Staking": "Delegación",
         "Swap": "Intercambio",
         "Governance": "Gobernanza",
         "Contract": "Contrato",
@@ -400,8 +400,8 @@
         "Recommended fee is {{fee}} or higher.\nTransactions with low fee might fail to proceed.": "Las tarifas recomendadas son de {{fee}} o más. Las transacciones con tarifas bajas pueden no tener éxito.",
         "You don't have enough balance. Please adjust either the amount or the fee.": "Equilibrio insuficiente. Por favor, ajusta el importe o la tarifa.",
   
-        "Confirm with ledger": "Confirmar con un libro de contabilidad",
-        "Please confirm in your\nLedger Wallet": "Por favor, confirma en tu libro de cuentas",
+        "Confirm with ledger": "Confirmar con Ledger",
+        "Please confirm in your\nLedger Wallet": "Por favor, confirma en tu monedero Ledger",
   
         "Confirm with password": "Confirmar con contraseña",
         "Input your password to confirm": "Introduce tu contraseña para confirmar",
@@ -489,7 +489,7 @@
         "Text Proposal": "Propuesta textual",
         "Tax-rate Update": "Actualización de los tipos impositivos",
         "Reward-weight Update": "Actualización del nivel de recompensa",
-        "Community-pool Spend": "Gasto comunitario",
+        "Community-pool Spend": "Gasto del pool comunitario",
         "Parameter-change": "Cambio de parámetros",
   
         "Title": "Título",
@@ -501,7 +501,7 @@
         "Recipient": "Destinatario",
         "Changes": "Cambios",
   
-        "Community pool": "Piscina comunitaria",
+        "Community pool": "Pool comunitario",
   
         "Created proposal {{title}} with {{coin}} deposit": "Propuesta creada {{título}} con depósito {{moneda}}",
         "Created proposal {{title}} without deposit": "Creación de la propuesta {{título}} sin depósito",
